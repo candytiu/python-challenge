@@ -48,6 +48,6 @@ with open(csvpath, newline='') as csvfile:
 
     winner = max(percentages)
     print("---------------------------------------")
-    print(f"Winner: {winner}")      
+    print("Winner: {}".format(winner))
     print("---------------------------------------")
 
